@@ -23,4 +23,9 @@ export class ProductsComponent implements OnInit {
     .subscribe()
   }
 
+  addToCart(product:Product):void{
+    
+    
+  }
+
 }
