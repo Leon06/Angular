@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProductsComponent } from './products.component';
+
 import {ProductRoutingModule} from './products.routing.module';
-import { ProductComponent } from './product/product.component'
+import { ProductsComponent } from './products.component';
+import { ProductComponent } from './product/product.component';
 import { MaterialModule } from 'src/app/material.module';
 
 
@@ -15,8 +16,7 @@ import { MaterialModule } from 'src/app/material.module';
   imports: [
     CommonModule,  
     ProductRoutingModule,
-    MaterialModule,
-    
+    MaterialModule   
     
   ]
 })

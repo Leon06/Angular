@@ -9,6 +9,7 @@ import { Product } from '../interfaces/product.interface';
 
 export class ProductsService {
   private apiURL = 'http://localhost:3000/products';
+  
   constructor(private http: HttpClient) { }
 
   getProducts():Observable<Product[]>{ // la interfas que creamos
